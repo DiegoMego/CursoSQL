@@ -1,0 +1,11 @@
+CREATE TABLE table_name (
+  column_name datatype PRIMARY KEY (OTRA FORMA: PRIMARY KEY(column_name)),
+  column_name VARCHAR(50)
+);
+
+DROP TABLE table_name;
+
+ALTER TABLE table_name ADD column_name datatype;
+ALTER TABLE table_name DROP COLUMN column_name;
+
+INSERT INTO table_name(column_names) VALUES(list of values);
