@@ -1,0 +1,14 @@
+SELECT COUNT(column_name)
+FROM student;
+
+SELECT AVG(column_name)
+FROM student;
+
+SELECT SUM(column_name)
+FROM student;
+
+IMPORTANT GROUP BY
+find how many males and females
+SELECT COUNT(sex), sex
+FROM student
+GROUP BY sex;

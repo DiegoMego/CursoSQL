@@ -1,0 +1,6 @@
+SELECT DISTINCT column_name
+FROM student
+WHERE column_name <> value (<> is not equal to)
+WHERE column_name IN (values)
+ORDER BY column_name, column_name (DESC)
+LIMIT number;

@@ -10,6 +10,11 @@ DROP TABLE table_name;
 ALTER TABLE table_name ADD column_name datatype;
 ALTER TABLE table_name DROP COLUMN column_name;
 
+ALTER TABLE employee
+ADD FOREIGN KEY(branch_id)
+REFERENCES branch(branch_id)
+ON DELETE SET NULL;
+
 INSERT INTO table_name(column_names) VALUES(list of values);
 
 UPDATE table_name SET column_name = value,
@@ -17,10 +22,3 @@ column_name = value,
 (WHERE column_name = value OR/AND column_name = value);
 
 DELETE FROM student WHERE column_name = value;
-
-SELECT column_name
-FROM student
-WHERE column_name <> value (<> is not equal to)
-WHERE column_name IN (values)
-ORDER BY column_name, column_name (DESC)
-LIMIT number;
