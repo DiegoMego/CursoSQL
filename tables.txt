@@ -1,6 +1,8 @@
 CREATE TABLE table_name (
-  column_name datatype PRIMARY KEY (OTRA FORMA: PRIMARY KEY(column_name)),
-  column_name VARCHAR(50)
+  column_name DATATYPE PRIMARY KEY AUTO_INCREMENT(OTRA FORMA: PRIMARY KEY(column_name)),
+  column_name VARCHAR(50) NOT NULL,
+  column_name DATATYPE UNIQUE,
+  column_name DATATYPE DEFAULT value
 );
 
 DROP TABLE table_name;
