@@ -17,3 +17,10 @@ column_name = value,
 (WHERE column_name = value OR/AND column_name = value);
 
 DELETE FROM student WHERE column_name = value;
+
+SELECT column_name
+FROM student
+WHERE column_name <> value (<> is not equal to)
+WHERE column_name IN (values)
+ORDER BY column_name, column_name (DESC)
+LIMIT number;
