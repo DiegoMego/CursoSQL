@@ -1,0 +1,5 @@
+% = ANY NUMBER OF CHARACTERS. _ = 1 CHARACTER
+
+SELECT *
+FROM client
+WHERE client_name LIKE '%LLC';
