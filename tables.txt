@@ -11,3 +11,9 @@ ALTER TABLE table_name ADD column_name datatype;
 ALTER TABLE table_name DROP COLUMN column_name;
 
 INSERT INTO table_name(column_names) VALUES(list of values);
+
+UPDATE table_name SET column_name = value,
+column_name = value,
+(WHERE column_name = value OR/AND column_name = value);
+
+DELETE FROM student WHERE column_name = value;
